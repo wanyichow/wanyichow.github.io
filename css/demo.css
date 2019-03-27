@@ -152,7 +152,7 @@ body {
 	--color-title: inherit;
 	--font-family-title: 'Space Mono', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
 	--font-size-title: 8vmax;
-	--font-weight-title: 400;
+	--font-weight-title: 450;
 	--color-menu: #ffffff;
 	--color-menu-hover: #c14343;
 	--font-family-menu: var(--font-family-title);
@@ -335,6 +335,7 @@ a.demo--current {
 	font-family: var(--font-family-title);
 	font-size: var(--font-size-title);
 	font-weight: var(--font-weight-title);
+	text-align: center;
 }
 
 .global-menu {
@@ -1035,5 +1036,12 @@ a.demo--current {
 	}
 	.codrops-links {
 		margin: 0;
+	}
+
+	.demo-title {
+		color: var(--color-title);
+		font-family: var(--font-family-title);
+		font-size: var(--font-size-title);
+		font-weight: var(--font-weight-title);
 	}
 }
